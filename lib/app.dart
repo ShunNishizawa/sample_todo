@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     //   home: const MyHomePage(title: 'Flutter Demo Home Page'),
     // );
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       // routerDelegate: router.routerDelegate,
       // routeInformationParser: router.routeInformationParser,
       routerConfig: router,
