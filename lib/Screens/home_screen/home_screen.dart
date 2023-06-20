@@ -35,7 +35,7 @@ class HomeScreen extends ConsumerWidget {
                           shape: const StadiumBorder(),
                         ),
                         onPressed: () {
-                          context.push('/detail');
+                          context.go('/itemDetail');
                         },
                       ),
                     ],
